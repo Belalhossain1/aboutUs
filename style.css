@@ -1,0 +1,385 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nevbar{
+    font-size: 9px;
+    margin-right: 15%;
+ 
+}
+.nevbar img{
+width: 20px;
+height: auto; 
+}
+.counteinar{
+    width: 100%;
+    height: 500px;
+    background-image:  url(images/exp-bg.png);
+    background-repeat: no-repeat;   
+    
+}
+.Home a{
+    font-size: 10px;
+}
+.Home a:hover{
+    color: #ffa500 !important;
+}
+
+.plan{
+    margin-left: 15%;
+}
+.plan img{
+    width: 50px;
+    height: auto;
+}
+.Digital{
+    font-size: 14px;
+}
+.item a{
+    font-size: 10px;
+}
+.free:hover{
+    background-color:aqua !important;
+    color: burlywood;
+    padding: 20px,10px;
+
+}
+.item a:hover {
+    color: red !important;
+   font-size: 11px !important;
+   background-color:beige;
+   
+   }
+   .iqra a:hover{
+    color:rgba(40, 9, 243, 0.854)!important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+
+   }
+   .con{
+    position: relative;
+    max-width: 100vh;
+    padding: 10px 20px;
+    border-radius: 7px;
+
+   }
+   .skill-box .title{
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+   }
+   .skill-box .skill-bar{
+    height: 6px;
+    border-radius: 6px;
+    margin-top: 6px;
+    background-color: rgb(185, 176, 176);  
+   }
+   .skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    width: 85%;
+    background: #7b9aed;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+   }
+   @keyframes progress{
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+   }
+   .skill-per .tool-tip{
+    position: absolute;
+    right: -67px;
+    top: -23px;
+    font-size: 9px;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-radius: 3px;
+    z-index: 1;
+   }
+   .tool-tip::before{
+    content:'';
+    position: absolute;
+    bottom: -2px;
+    height: 10px;
+    width:10px;
+    left:-38px;
+    z-index: -1;
+    background: #4070f4;
+    transform: translateX(-50%)rotate(45deg);
+    
+   }
+   .skill-bar .per{
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    width: 95%;
+    background: #7b9aed;
+   }
+   .skill-per .tip{
+    position: absolute;
+    right: -30px;
+    top: -23px;
+    font-size: 9px;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-radius: 3px;
+    z-index: 1;
+   }
+   .tip::before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 10px;
+    width:10px;
+    left:-3px;
+    z-index: -1;
+    background: #4070f4;
+    transform:translateX(-50%)rotate(45deg);
+    
+   }
+   .skill-bar .skill{
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    width: 80%;
+    background: #7b9aed;
+   }
+   .skill-per .tool{
+    position:absolute;
+    right: -90px;
+    top: -23px;
+    font-size: 9px;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-radius: 3px;
+    z-index: 1;
+   }
+   .tool::before{
+    content:'';
+    position: absolute;
+    bottom: -2px;
+    height: 10px;
+    width:10px;
+    left:-67px;
+    z-index: -1;
+    background: #4070f4;
+    transform:translateX(-50%)rotate(45deg);
+    
+   }
+   .pochis{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(228, 228, 92);
+    padding: 7px 12px;
+    background-color: aliceblue;
+    border-radius: 20px;
+   }
+   .year{
+    font-size: 15px;
+    color: #000;
+
+   }
+   .exper{
+    bottom: 80px;
+    text-align: center;
+    position: relative;
+   }
+   .photos{
+    position: relative;
+    display: inline;
+    bottom: 330px;
+    left: 215px;
+   }
+   
+
+   .tahmid a{
+    font-size: 12px;
+   }
+   .tahmid a:hover{
+    color: white !important;
+    background-image: linear-gradient(to right, #ffa500, #ff6347);
+    font-size: 14px;
+   }
+   .card-title img{
+    width: 20px;
+    height: auto;
+    margin: 7px;
+   }
+   .hm{
+    width: 76%;
+    margin-left: 12%;
+    background: #0808081a;
+    height: 0px;
+    color: white;
+   }
+   ul li{
+    font-size: 11px;
+    margin-top: 8px;
+   }
+   ul li:hover{
+    color:blue;
+    font-size: 12px;
+   }
+
+   @media only screen and (max-width: 600px) {
+    
+    .nevbar{
+        font-size: 8px;
+        margin-right: 5%;
+        
+    }
+    .nevbar img{
+        width: 15px;
+        height: auto; 
+        }
+    .plan{
+        margin-left: 5%;
+        font-size: 8px;
+    
+        
+    }
+    .plan img{
+        width: 30px;
+        height: auto;
+    }
+    .Digital{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .pochis{
+        font-size: 18px;
+    }
+    .year{
+        font-size: 10px;
+    }
+    .exper{
+        bottom: 42px;
+    }
+    .photos{
+        bottom: 90px;
+        left: 55px;
+    }
+    .fw{
+        margin-left: 15px;
+    }
+    .mw{
+        margin-right: 15px;
+    }
+    
+    
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .plan{
+        margin-left: 10%;
+        font-size: 10px;
+    }
+    
+    .pochis{
+        font-size: 18px;
+    }
+    .year{
+        font-size: 12px;
+    }
+    .exper{
+        bottom: 42px;
+    }
+    .photos{
+        bottom: 120px;
+        left: 80px;
+  }
+  .fw{
+    margin-left: 15px;
+}
+.mw{
+    margin-right: 15px;
+}
+}
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .pochis{
+        font-size: 23px;
+    }
+    .year{
+        font-size: 15px;
+    }
+    .exper{
+        bottom: 55px;
+    }
+    .photos{
+        bottom: 180px;
+        left: 125px;
+  } 
+}
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .pochis{
+        font-size:25px;
+    }
+    .year{
+        font-size: 15px;
+    }
+    .exper{
+        bottom: 55px;
+    }
+    .photos{
+        bottom: 250px;
+        left: 125px;
+  } 
+  .plan{
+    margin-left: 15%;
+    font-size: 11px;
+
+    
+}
+.plan img{
+    width: 40px;
+    height: auto;
+}
+.Digital{
+    font-size: 14px;
+    
+  } 
+}
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .pochis{
+        font-size:30px;
+    }
+    .year{
+        font-size: 15px;
+    }
+    .exper{
+        bottom: 80px;
+    }
+    .photos{
+        bottom: 330px;
+        left: 215px;
+  } 
+  .plan{
+    margin-left: 15%;
+    font-size: 12px;
+
+    
+}
+.plan img{
+    width: 50px;
+    height: auto;
+}
+.Digital{
+    font-size: 14px;
+    
+  } 
+}
