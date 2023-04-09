@@ -198,7 +198,7 @@ height: auto;
    .photos{
     position: relative;
     display: inline;
-    bottom: 330px;
+    bottom: 310px;
     left: 215px;
    }
    
@@ -365,8 +365,8 @@ height: auto;
         bottom: 80px;
     }
     .photos{
-        bottom: 330px;
-        left: 215px;
+        bottom: 310px;
+        left: 210px;
   } 
   .plan{
     margin-left: 15%;
